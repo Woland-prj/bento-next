@@ -50,7 +50,7 @@ export const config: Config = {
 
   // Search Bar
   searchBar: true,
-  searchEngine: 'google', // google, ddg
+  searchEngine: 'ddg', // google, ddg
   barPlaceholder: '', // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
@@ -107,29 +107,29 @@ export const config: Config = {
         url: 'https://github.com/', // provide a link to the page.
       },
       {
-        name: 'Mail',
-        icon: 'envelope',
-        url: 'https://mail.protonmail.com/',
+        name: 'Chatgpt',
+        icon: 'badge',
+        url: 'https://https://chatgpt.com/',
       },
       {
-        name: 'Todoist',
-        icon: 'list-ol',
-        url: 'https://todoist.com',
+        name: 'Figma',
+        icon: 'fab-figma',
+        url: 'https://figma.com/',
       },
       {
-        name: 'Calendar',
-        icon: 'calendar',
-        url: 'https://calendar.google.com/calendar/r',
-      },
-      {
-        name: 'Reddit',
-        icon: 'fab-reddit',
-        url: 'https://reddit.com',
-      },
-      {
-        name: 'Odysee',
+        name: 'YouTube',
         icon: 'fab-youtube',
-        url: 'https://odysee.com/',
+        url: 'https://youtube.com/',
+      },
+      {
+        name: 'Lks',
+        icon: 'user',
+        url: 'https://lks.volgatech.net/',
+      },
+      {
+        name: 'VK',
+        icon: 'fab-vk',
+        url: 'https://vk.com/',
       },
     ],
     // Second buttons group
@@ -177,20 +177,20 @@ export const config: Config = {
         icon: 'music', // Icon for the list to use. The same as the buttons.
         links: [
           {
-            name: 'Inspirational', // Display text for the link
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', // URL to the page
+            name: 'Wave', // Display text for the link
+            url: 'https://music.yandex.ru', // URL to the page
+          },
+          {
+            name: 'Likes',
+            url: 'https://music.yandex.ru/playlists/lk.399f3eb8-036a-43f8-aaaf-02a7931a710a',
           },
           {
             name: 'Classic',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            url: 'https://music.yandex.ru/playlists/d098e3f0-6627-6118-bc76-b23c733718fc',
           },
           {
-            name: 'Oldies',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-          },
-          {
-            name: 'Rock',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Albums',
+            url: 'https://music.yandex.ru/collection/albums',
           },
         ],
       },
@@ -198,20 +198,20 @@ export const config: Config = {
         icon: 'coffee',
         links: [
           {
-            name: 'Linkedin',
-            url: 'https://www.linkedin.com',
+            name: 'Nix search',
+            url: 'https://search.nixos.org/packages',
           },
           {
-            name: 'Dribbble',
-            url: 'https://www.dribbble.com',
+            name: 'Sasflix',
+            url: 'https://sasflix.ru/',
           },
           {
-            name: 'Trello',
-            url: 'https://www.trello.com',
+            name: 'Vpn',
+            url: 'https://45.8.145.97:63251/aTiO3nFlmY/',
           },
           {
-            name: 'Slack',
-            url: 'https://www.slack.com',
+            name: 'Selectel',
+            url: 'https://my.selectel.ru/',
           },
         ],
       },
