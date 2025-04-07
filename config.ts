@@ -109,7 +109,7 @@ export const config: Config = {
       {
         name: 'Chatgpt',
         icon: 'wand-magic-sparkles',
-        url: 'https://https://chatgpt.com/',
+        url: 'https://chatgpt.com/',
       },
       {
         name: 'Figma',
